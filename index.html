@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .bg-gradient {
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,113,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .navbar-nav .nav-link {
+            color: #007bff;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #0056b3;
+        }
+        .expertise-card {
+            transition: transform 0.3s;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .expertise-card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #0f0f0f;
+            color: white;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .card-text {
+            font-size: 1rem;
+            color: #555;
+        }
+        .section-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .section-subtitle {
+            font-size: 1.25rem; 
+            color: #777;
+            margin-bottom: 2rem;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+        .social-icons img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<!-- Start of Selection -->
+<body style="background-image: url('images/bg3.jpg'); background-size: cover; background-position: top; background-attachment: fixed; background-repeat: no-repeat; background-color: rgb(41, 41, 41);">
+<style>
+    @media (max-width: 768px) {
+        body {
+            background-size: 100% auto;
+        }
+    }
+</style>
+
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: transparent;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portofolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#expertise">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mb-5">
+        <!-- Bagian Tentang -->
+        <div class="mt-5 mb-4" id="about">&nbsp;</div>
+        <section class="">
+            <div class="text-center text-white">
+                <img src="images/profil.jpeg" alt="foto profil" class="rounded-circle mx-auto d-block mb-3" style="width: 150px; height: 150px;">
+                <i>"Tetap dalam tujuan yang telah disediakan-Nya."</i> <br>
+                <b class="text-white">Christian Agung Manambe</b>
+                <div class="social-icons mt-3">
+                    <a href="https://wa.me/+6282217375542" target="_blank" style="margin-right: 10px; text-decoration: none;">
+                        <img src="images/wa-icon.png" alt="WhatsApp">
+                    </a>
+                    <a href="https://www.facebook.com/christian.a.manambe.7" target="_blank" style="margin-right: 10px; text-decoration: none;">
+                        <img src="images/fb-icon.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/ch.a.manambe" target="_blank" style="margin-right: 10px; text-decoration: none;">
+                        <img src="images/ig-icon.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- <hr style="border-color: #ffffff;"> -->
+
+        <!-- Bagian Keahlian -->
+        <div class="mt-5 mb-4" id="expertise">&nbsp;</div>
+        <section class="">
+            <h2 class="text-center section-title text-white mb-5"><u>Keahlian</u></h2>
+            <div class="row justify-content-center">
+                <div class="col-md-3 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Devoloper Web</h5>
+                            <p class="card-text flex-grow-1">Mengembangkan website dengan menggunakan HTML, CSS, dan JavaScript pada bagian Frontend. Mengembangkan website dengan menggunakan PHP dan MySQL pada bagian Backend.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Prompt Engineer</h5>
+                            <p class="card-text flex-grow-1">Menciptakan prompt yang efektif untuk meningkatkan produktivitas menggunakan AI dan menggunakan AI untuk memecahkan masalah.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Microsoft Office</h5>
+                            <p class="card-text flex-grow-1">Menggunakan Microsoft Office untuk berbagai kebutuhan kerja, seperti Word, Excel, dan Powerpoint.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <hr style="border-color: #ffffff;"> -->
+
+        <!-- Bagian Pendidikan -->
+        <div class="mt-5 mb-4" id="education">&nbsp;</div>
+        <section class="">
+            <h2 class="text-center section-title text-white mb-5"><u>Pendidikan</u></h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Sekolah Dasar Inpres Negeri Melonguane di Talaud</h5>
+                            <p class="card-text">2006 - 2012</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Sekolah Menengah Pertama Negeri 1 Melonguane di Talaud</h5>
+                            <p class="card-text">2012 - 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Sekolah Menengah Kejuruan Negeri 1 Melonguane di Talaud</h5>
+                            <p class="card-text">Teknik Komputer Jaringan</p>
+                            <p class="card-text">2015 - 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4 mb-3">
+                    <div class="card expertise-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Universitas</h5>
+                            <p class="card-text">Universitas Bina Sarana Informatika</p>
+                            <p class="card-text">2018 - 2022</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- <hr style="border-color: #ffffff;"> -->
+
+        <!-- Bagian Pengalaman -->
+        <div class="mt-5 mb-4" id="experience">&nbsp;</div>
+        <section class="">
+            <h2 class="text-center section-title text-white mb-5"><u>Pengalaman</u></h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Toko Bukit Moria</h5>
+                            <p class="card-text"><b>Mulai :</b> Mei 2019 - Juli 2019</p>
+                            <p class="card-text"><b>Deskripsi :</b> Bekerja sebagai Kasir pada toko bukit moria yang bergerak di bidang jual beli ATK dan Fotocopy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Dinas Komunikasi dan Informatika Kabupaten Kepulauan Talaud</h5>
+                            <p class="card-text"><b>Mulai :</b> Januari 2021 - Januari 2022</p>
+                            <p class="card-text"><b>Deskripsi :</b> Bekerja sebagai Honorer bagian Pengembang Web pada Dinas Komunikasi dan Informatika Kabupaten Kepulauan Talaud.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card expertise-card shadow-sm w-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Freelance Entri Data</h5>
+                            <p class="card-text"><b>Mulai :</b> Desember 2022 - Sekarang</p>
+                            <p class="card-text"><b>Deskripsi :</b> Bekerja sebagai Freelance Entri Data.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bagian Footer -->
+    <footer class="text-center py-3 mt-5">
+        <p class="mb-0">© 2024 Portofolio. Desain By Christian Agung Manambe.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Tambahkan skrip ini untuk efek scroll yang halus
+        $(document).ready(function(){
+            $('.navbar-nav a').on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+<!-- End of Selection -->
+</html>
